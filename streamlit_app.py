@@ -137,16 +137,6 @@ with st.sidebar:
         default=df["device"].unique().tolist()
     )
 
-    st.markdown("---")
-    st.markdown("""
-    <div class="sidebar-info">
-    <b>Project Info</b><br>
-
-    Technology: Apache Spark + PySpark<br>
-    Dataset: 103 records, 20 users<br>
-    Academic Year: 2024–25
-    </div>
-    """, unsafe_allow_html=True)
 
     st.markdown("---")
     st.markdown("### Raw Data Preview")

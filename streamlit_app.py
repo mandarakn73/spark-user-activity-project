@@ -141,7 +141,7 @@ with st.sidebar:
     st.markdown("""
     <div class="sidebar-info">
     <b>Project Info</b><br>
-    Course: B.Tech Big Data Analytics<br>
+
     Technology: Apache Spark + PySpark<br>
     Dataset: 103 records, 20 users<br>
     Academic Year: 2024–25

@@ -164,7 +164,7 @@ st.markdown("""
 ⚡ User Activity Pattern Detection
 </h1>
 <p style='color:#90CAF9;margin-top:0.2rem;font-size:0.95rem'>
-Apache Spark · PySpark · E-Commerce Behavioral Analytics · B.Tech Big Data Project
+Apache Spark · PySpark · E-Commerce Behavioral Analytics
 </p>
 """, unsafe_allow_html=True)
 

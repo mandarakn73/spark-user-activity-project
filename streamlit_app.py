@@ -321,9 +321,9 @@ with tab2:
         st.plotly_chart(fig_funnel, use_container_width=True)
 
         # Conversion metrics
-        view_users = int(funnel_data[funnel_data["stage"] == "Viewed"]["users"])
-        cart_users = int(funnel_data[funnel_data["stage"] == "Added to Cart"]["users"])
-        purch_users = int(funnel_data[funnel_data["stage"] == "Purchased"]["users"])
+        view_users  = int(funnel_data[funnel_data["stage"] == "Viewed"]["users"].values[0])
+        cart_users  = int(funnel_data[funnel_data["stage"] == "Added to Cart"]["users"].values[0])
+        purch_users = int(funnel_data[funnel_data["stage"] == "Purchased"]["users"].values[0])
 
         m1, m2 = st.columns(2)
         m1.metric("View → Cart Rate",     f"{round(cart_users/view_users*100)}%")
